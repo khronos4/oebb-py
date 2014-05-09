@@ -1,0 +1,25 @@
+{
+    "layers": {
+        "base" : {
+            "meta-oe": "meta-openembedded/meta-oe",
+            "meta-efl": "meta-openembedded/meta-efl",
+            "meta-gpe": "meta-openembedded/meta-gpe",
+            "meta-gnome": "meta-openembedded/meta-gnome",
+            "meta-xfce": "meta-openembedded/meta-xfce",
+            "meta-initramfs": "meta-openembedded/meta-initramfs",
+            "toolchain-layer": "meta-openembedded/toolchain-layer",
+            "meta-multimedia": "meta-openembedded/meta-multimedia",
+            "meta-networking": "meta-openembedded/meta-networking",
+            "meta-systemd": "meta-openembedded/meta-systemd"
+        },
+        "bsp": {
+            "common-bsp": "meta-beagleboard/common-bsp",
+            "meta-fsl-arm": "meta-fsl-arm",
+            "meta-fsl-arm-extra": "meta-fsl-arm-extra"
+        },
+        "extra": {
+            "meta-linaro": "meta-linaro/meta-linaro",
+            "meta-linaro-toolchain": "meta-linaro/meta-linaro-toolchain"
+        }
+    }
+}
